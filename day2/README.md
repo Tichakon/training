@@ -10,3 +10,8 @@ Step
 - Postgres [Link](/day2/postgres/README.md)
 - docker compose (postgresql, pgadmin, web) [Link](/day2/docker-compose/README.md)
 - ตั้งค่า env [Link](/day2/environ/README.md)
+
+Other
+- https://docs.docker.com/get-started/docker_cheatsheet.pdf
+- https://github.com/docker/awesome-compose
+- https://blog.tichaky.com/category/docker/
