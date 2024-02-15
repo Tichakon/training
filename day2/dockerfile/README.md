@@ -42,3 +42,5 @@ docker run -it --rm --name django-training-dev -p 7000:8000 -v `pwd`:/app django
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
+
+[Back](/day2/README.md)
