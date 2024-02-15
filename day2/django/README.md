@@ -1,26 +1,35 @@
+# Django
+
+- รันคำสั่งเพื่อจำลอง Environment python
 ```
 docker run -it --rm --name my-python -v "$PWD":/app -p 8000:8000 -w /app python:3.9.18-slim /bin/bash
 ```
 
+- ทำการอัพเดท apt
 ```
 apt update
 ```
 
+- ติดตั้ง Django
 ```
 pip install Django
 ```
 
-## ถ้าไม่มีโปรเจค
+- ถ้าไม่มีโปรเจค
 ```
 django-admin startproject mysite
 ```
-
+- เข้าไปที่โฟลเดอร์ที่สร้าง
 ```
 cd mysite
 ```
-
+- รันคำสั่งด้านล่างเพื่อรันเว็บขึ้นมา
 ```
 python manage.py runserver 0.0.0.0:8000
+```
+- เข้าไปที่ [localhost:8000](http://localhost:8000) เพื่อดูผลลัพธ์
+```
+locahost:8000
 ```
 
 Package เพิ่มเติมสำหรับเชื่อมต่อกับ Postgres
