@@ -42,6 +42,7 @@ pip install psycopg2-binary
 pip install environ django-environ
 ```
 
+## แยก pip ที่ติดตั้งออกมาใส่ไว้ใน requirements.txt
 ```
 pip freeze > requirements.txt
 ```

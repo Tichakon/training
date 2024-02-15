@@ -7,11 +7,15 @@
 ```
 FROM python:3.9.18-slim
 
-RUN apt update && apt-get install iputils-ping telnet vim
-
-RUN pip install -r requirements.txt
+RUN apt update && apt-get install -y iputils-ping telnet vim
 
 WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+COPY ./ /app
+RUN pip install -r requirements.txt
 
 EXPOSE 8000
 
@@ -31,6 +35,23 @@ docker run -d --name django-training-test -p 8000:8000 django-training
 - ถ้ามี Dockerfile หลายอัน แล้วเลือกเฉพาะอันที่เราอยาก Build สามารถใช้คำสั่งตามนี้
 ```
 docker build -t django-training-dev -f Dockerfile.dev .
+```
+
+สร้างไฟล์ Dockerfile.dev ใส่ไว้ที่ project django
+```
+FROM python:3.9.18-slim
+
+RUN apt update && apt-get install -y iputils-ping telnet vim
+
+WORKDIR /app
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+COPY ./requirements.txt /app
+RUN pip install -r requirements.txt
+
+EXPOSE 8000
 ```
 
 - จากนั้นก็รันคำสั่ง

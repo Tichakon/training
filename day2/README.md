@@ -9,3 +9,4 @@ Step
 - Dockerfile [Link](/day2/dockerfile/README.md)
 - Postgres [Link](/day2/postgres/README.md)
 - docker compose (postgresql, pgadmin, web) [Link](/day2/docker-compose/README.md)
+- ตั้งค่า env [Link](/day2/environ/README.md)
