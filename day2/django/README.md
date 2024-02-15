@@ -27,17 +27,17 @@ cd mysite
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
-- เข้าไปที่ [localhost:8000](http://localhost:8000) เพื่อดูผลลัพธ์
+- เข้าไปที่ <a href="http://localhost:8000" target="_blank">http://localhost:8000</a> เพื่อดูผลลัพธ์
 ```
 locahost:8000
 ```
 
-Package เพิ่มเติมสำหรับเชื่อมต่อกับ Postgres
+## Package เพิ่มเติมสำหรับเชื่อมต่อกับ Postgres
 ```
 pip install psycopg2-binary 
 ```
 
-Package เพิ่มเติมสำหรับอ่าน .env
+## Package เพิ่มเติมสำหรับอ่าน .env
 ```
 pip install environ django-environ
 ```
