@@ -1,4 +1,4 @@
-# Traning Modernize Day 2
+# Traning Modernize Day 3
 
 - อธิบายรายละเอียดของ Docker Volume, Docker Compose และการตั้งค่า env
 
