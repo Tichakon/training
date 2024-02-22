@@ -7,9 +7,6 @@ Step
 - ทดสอบโดยการติดตั้ง Nginx [Link](/day2/nginx/README.md)
 - ติดตั้ง Django โดยใช้ Docker (บนเครื่องไม่มี Python) [Link](/day2/django/README.md)
 - Dockerfile [Link](/day2/dockerfile/README.md)
-- Postgres [Link](/day2/postgres/README.md)
-- docker compose (postgresql, pgadmin, web) [Link](/day2/docker-compose/README.md)
-- ตั้งค่า env [Link](/day2/environ/README.md)
 
 Other
 - https://docs.docker.com/get-started/docker_cheatsheet.pdf

@@ -53,4 +53,4 @@ python manage.py migrate
 
 เข้าไปที่ฐานข้อมูลหรือ pgadmin เพื่อดูว่าต่อกับฐานข้อมูลจริงมั้ย
 
-[Back](/day2/README.md)
+[Back](/day3/README.md)
